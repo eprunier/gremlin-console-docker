@@ -25,3 +25,8 @@ Adapt the version number. Here is an example for TinkerPop 3.2.5:
 ### Run
 
     docker run -d -p 8182:8182 --name gremlin-server gremlin-server:3.2.5
+
+This default command starts Gremlin server with gremlin-server-modern.yaml configuration which defines a WebSocket connector.
+If you want a REST connector you can run the following command.
+
+    docker run -d -p 8182:8182 --name gremlin-server gremlin-server:3.2.5 conf/gremlin-server-rest-modern.yaml
