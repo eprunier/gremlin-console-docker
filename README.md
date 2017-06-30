@@ -1,6 +1,6 @@
-# TinkerPop3
+# TinkerPop
 
-Run TinkerPop3 Gremlin console/server in a Docker container.
+Run TinkerPop Gremlin console/server in a Docker container.
 
 ## Gremlin console
 
